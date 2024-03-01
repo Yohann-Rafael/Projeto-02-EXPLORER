@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+
+  /*Adiciona um gradiente ao fundo*/
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+
+  /*Rendeniza a pagina com no minimo 100% da tela do usuario*/
+  min-height: 100vh;
+}
+
+.page {
+  width: 1280px;
+  height: 720px;
+  margin: 0 auto;
+
+  padding-top: 65px;
+  color: #7d7987;
+}
+
+a {
+  text-decoration: none;
+  color: #1f1534;
+}
+
+nav {
+  /*Deixa os elementos um ao lado do outro*/
+  display: flex;
+  /*Deixa os itens um em cada extremidade*/
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 65px auto 58px;
+  width: 1005px;
+  height: 23px;
+
+  font-family: mulish;
+}
+
+nav ul {
+  /*Remove as bolinhas da lista*/
+  list-style: none;
+  display: flex;
+  gap: 48px;
+
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+ul li a:hover {
+  /*Hover é para mudar algo sempre que passar o mouse em cima*/
+  font-weight: 700;
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1008px;
+  height: 434;
+  margin: 0 auto 83px;
+}
+
+section {
+  width: 489px;
+  height: 332px;
+}
+
+section h1 {
+  font-size: 49px;
+  margin-bottom: 40px;
+  font-family: mulish;
+
+  line-height: 56px;
+  font-weight: 400;
+  color: #1f1534;
+}
+
+section h1 span {
+  color: #89c5cc;
+  font-weight: 700;
+}
+
+section p {
+  margin: 0 auto 40px;
+  font-family: open sans;
+}
+
+section button {
+  width: 156px;
+  height: 56px;
+  background-color: #69b99d;
+
+  border-radius: 4px;
+  border: none;
+  gap: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /*Muda o cursor para a mãozinha quando posisionado*/
+  cursor: pointer;
+}
+
+button a {
+  font-family: dm sans;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #41b68d;
+}
+
+main img {
+  height: 433px;
+  width: 417px;
+}
+
+button img {
+  height: 24px;
+  width: 25px;
+}
+
+footer p {
+  margin: 0 auto 30px;
+  text-align: center;
+  font-family: open sans;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  width: 98px;
+  height: 88px;
+}
